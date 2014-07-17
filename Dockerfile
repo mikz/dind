@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu:trusty
 MAINTAINER michal.cichra@gmail.com
 
 RUN apt-get update -q  \
