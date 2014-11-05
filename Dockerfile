@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
 MAINTAINER michal.cichra@gmail.com
 
-ENV DOCKER_VERSION 1.3.1
+ENV DOCKER_VERSION 1.1.2
 ADD apt-install /usr/local/bin/
 RUN apt-install iptables apparmor wget \
  && wget https://get.docker.io/builds/Linux/x86_64/docker-${DOCKER_VERSION} -q -O /usr/local/bin/docker \
